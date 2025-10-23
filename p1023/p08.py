@@ -17,7 +17,6 @@ print(type(astr)) #타입이 문자열로 지정됨
 result= 100
 result2= result
 result= result+200
-result= result+200
 print(result2) #값은 얼마일까요?
 #result는 300, result2는 100이다.
 #각각의 변수를 각각의 다른 공간이라고 생각해라.
