@@ -20,13 +20,13 @@ total= kor+eng+math
 avg= (kor+eng+math)/3
 
 print("%s님의 시험점수는 다음과 같습니다." % (name))
-print("국어점수: %d, 수학점수: %d, 영어점수:%d" % (kor,math,eng))
+print("국어점수: %d, 수학점수: %d, 영어점수: %d" % (kor,math,eng))
 print("세과목의 합계: %d, 세과목의 평균: %.2f" % (total,avg))
 
 
-print("국어점수: %d\t수학점수: %d\t점수: %d" % (kor,math,eng))
-print("합계: %d\t평균: %.2f" % (total,avg))
-##역슬래시는 원화키를 누르면 된다.
+# print("국어점수: %d\t수학점수: %d\t점수: %d" % (kor,math,eng))
+# print("합계: %d\t평균: %.2f" % (total,avg))
+## 역슬래시는 원화키를 누르면 된다.
 ## "\t" 는 Tap키와 같다.
 
 
