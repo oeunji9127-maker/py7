@@ -93,11 +93,23 @@ math= int(input("수학점수를 입력하시오"))
 total= kor+eng+math
 avg= (kor+eng+math)/3
 
+name2= input("이름을 입력하시오")
+kor2= int(input("국어점수를 입력하시오"))
+eng2= int(input("영어점수를 입력하시오"))
+math2= int(input("수학점수를 입력하시오"))
+total2= kor2+eng2+math2
+avg2= (kor2+eng2+math2)/3
+
 print("-"*50)
 print("입력하신 세과목의 합계와 평균은 다음과 같습니다")
 print("-"*50)
+print("이름\t국어\t수학\t영어\t합계\t평균")
 print("%s\t%d\t%d\t%d\t%d\t%.2f" % (name,kor,eng,math,total,avg))
+print("%s\t%d\t%d\t%d\t%d\t%.2f" % (name2,kor2,eng2,math2,total2,avg2))
 print("-"*50)
+
+
+
 
 
 
