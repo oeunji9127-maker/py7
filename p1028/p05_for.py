@@ -31,12 +31,6 @@
 # for i in range(1,5+1):
 #     print("range{}".format(i))
     
-# 입력을 10번 받아보시오
-
-for i in range(3):
-    input("값을 입력하세요")
-print("값을 그만 입력하세요")
-
     
     
     
