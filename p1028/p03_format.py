@@ -1,3 +1,5 @@
+# 1.
+
 # year= 2025
 # month= 10
 # day= 28
@@ -5,6 +7,8 @@
 # print("{}년 {}월 {}일".format(year,month,day))
 # print(f"{year}년 {month}월 {day}일")
 
+
+# 2.
 
 # 3개의 값을 입력받아 숫자를 모두 합친 금액을 출력하시오.
 # 1000원 이상 입력하세요
