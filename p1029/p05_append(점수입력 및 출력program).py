@@ -8,7 +8,7 @@ avg= total/3
 
 stu_list=[]
 
-# 리스트.append(해당값): 리스트 안에 해당값을 리스트 맨뒤에
+# 리스트.append(해당값): 리스트 안에 해당값을 맨뒤에 추가
 stu_list.append(name)
 stu_list.append(kor)
 stu_list.append(eng)
