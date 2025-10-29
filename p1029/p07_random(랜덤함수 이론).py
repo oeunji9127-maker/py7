@@ -16,6 +16,7 @@ print(random.choices([1,2,3,4,5],k=4))
 
 a_list= [1,2,3,4,5]
 random.shuffle(a_list)
+# 해당 리스트의 값을 랜덤으로 섞는다
 print(a_list)
 
 
