@@ -5,7 +5,10 @@ math= int(input("수학점수를 입력하시오>>"))
 total= kor+eng+math
 avg= total/3
 
+
 stu_list=[]
+
+# 리스트.append(해당값): 리스트 안에 해당값을 맨뒤에 추가
 stu_list.append(name)
 stu_list.append(kor)
 stu_list.append(eng)
