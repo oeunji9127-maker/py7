@@ -1,0 +1,107 @@
+english={
+    "사랑":"love",
+    "차":"car",
+    "커피":"coffee"
+}
+correc_dic={}
+count=0
+
+# 영어맞추기 프로그램을 구현하시오
+print("[ 영어맞추기 프로그램 ]")
+print("영어를 재밌게 학습해보아요~")
+print()
+
+for k,v in english.items():
+    print("{} 은(는) 영어로 뭘까요?".format(k))
+    answer= input(">>")
+    
+    # answer == v
+    if answer==v:
+        print("띵동~~ 정답입니다~~!")
+        correc_dic[k]="정답"
+        count+=1
+        print("-"*50)
+        
+    else:
+        print("오답! 정답은 {}".format(v))
+        correc_dic[k]="오답"
+        print("-"*50)
+    
+
+# correc_dic= {사랑:정답    차:정답     커피:오답}
+# 키를 먼저 출력하고, 정답과 입력값을 비교하여 correc_dic에 넣은 후 출력한다
+
+for k,correc in correc_dic.items():  # correc_dic [사랑:정답  차:오답]
+    print("{}:{}".format(k,correc),end="  ")
+print("[ 맞 은 개 수 ]:{}".format(count))
+
+
+# # 1:0, 2:0, 3:0 딕셔너리를 추가하시오
+# # 2:5로 변경하시오
+# b_dic= {}
+# b_list= [1,2,3]
+# for i in b_list:
+#     b_dic[i]=0
+# print(b_dic)
+# b_dic[2]=5
+# print(b_dic)
+
+
+# # "홍":100, "이":90, "유":80 딕셔너리에 추가하시오
+# # "이":95로 변경하시오
+# # "유"를 삭제하시오
+# c_dic={}
+# c_dic["홍"]=100  # 딕셔너리 추가
+# c_dic["이"]=90   # 추가
+# c_dic["유"]=80   # 추가
+# print(c_dic)
+# c_dic["이"]=95  # 딕셔너리 수정
+# print(c_dic)
+# del c_dic["유"] # 딕셔너리 삭제
+# print(c_dic)
+
+
+# # 1:4, 2:2, 3:2, 4:1, 5:1
+# # for 변수 in 범위  # range,리스트,문자열,딕셔너리-keys,items,튜플
+
+# a_list= [1,2,3,1,1,2,1,3,4,5]
+# names= ["홍","홍","김","이","유","이","홍","김","강","홍"]
+# a_dic= {}
+# n_dic={}
+
+# for i in names:
+#     if i not in n_dic:
+#         n_dic[i]=1
+#     else:
+#         n_dic[i]=n_dic[i]+1
+# print(n_dic)
+# # [홍:4, 김:2, 이:2, 유:1, 강:1] 출력        
+        
+# 반복
+# for i in a_list:
+#     if i not in a_dic:
+#         a_dic[i]=1
+#     else:
+#         a_dic[i]=a_dic[i]+1
+# print(a_dic)
+
+
+# for i in a_list:
+#     a_dic[i]=0
+# print(a_dic)
+    
+ # 딕셔너리 추가방법: 없는키를 입력하면 추가됨
+ # 키: 타입은 상관없음. str,int,float,bool
+    
+
+
+
+# 해당값이 있는지 확인할 때 사용(딕셔너리도 같은 방법)
+# if 1 in a_list:
+#     print("존재")
+# else: print("없음")
+
+# a_dic= {"1":1, "2":3, "3":4} 
+# if 1 in a_dic:
+#     print("존재")
+# else: print("없음")
