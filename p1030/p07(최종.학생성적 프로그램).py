@@ -49,6 +49,8 @@ while True:
             print("{}. {} {}".format((i+1),stus[0],stus[1]))
         print("-"*50)
         choice= int(input("수정하려는 번호를 입력하세요>>"))
+        # choice: 수정하려는 이름번호
+        
         # 1
         print("[ {}학생 수정과목 선택 ]".format(stu_list[choice-1][1]))
         print("1. 국어점수")
