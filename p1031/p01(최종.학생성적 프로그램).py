@@ -52,9 +52,9 @@ while True:
         # 번호      이름    국어    수학    영어    합계    평균
         # 10104    오은지   100    100     100    300    100
         print("[ 학생성적 출력 ]")
-        print("{}\t{}\t{}\t{}\t{}\t{}\t{}".format(*titles))
+        print(*titles,sep="\t")
         for stus in stu_list:
-            print("{}\t{}\t{}\t{}\t{}\t{}\t{}".format(*stus))   
+            print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".format(*stus))   
 
 
     # 학생성적 수정
