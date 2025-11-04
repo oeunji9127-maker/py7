@@ -18,8 +18,6 @@ for stu in stu_list:
     print(*stu,sep="\t")
 print("-"*70)
 
-# 끝
-
 
 
 

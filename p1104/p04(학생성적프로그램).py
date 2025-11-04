@@ -27,4 +27,3 @@ while True:
         print()
         break
     
-    # 끝
