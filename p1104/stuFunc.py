@@ -127,6 +127,6 @@ def stu_rank():
         print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}\t{}".format(*stus))
     print()
 
-          
+# 끝      
     
 
