@@ -1,6 +1,8 @@
 class Student:
-    # 생성자 - 객체선언시 바로 실행되는 함수
+    
+    # 생성자 - "객체선언시!!" 바로 실행되는 함수
     def __init__(self,stunum,name,kor,eng,math):
+        
         # 클래스에서 사용하는 전역변수 = 함수내에서 사용하는 지역변수
         self.stunum= stunum
         self.name= name
