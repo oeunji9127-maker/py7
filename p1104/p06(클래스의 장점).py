@@ -25,12 +25,12 @@
  
 
 
-class Student:
-    hour=1
-    second=0 # 변수 미리지정
+# class Student:
+#     hour=1
+#     second=0 # 변수 미리지정
     
-    # 생성자 - 함수를 호출하지 않아도, 객체선언시 자동호출
-    def __init__(self):
+#     # 생성자 - 함수를 호출하지 않아도, 객체선언시 자동호출
+#     def __init__(self):
 
 
 
@@ -39,7 +39,7 @@ class Student:
 # -------------------------------------------
 # 변수= class명:객체선언 - class공간을 만들어줌
 
-# s= Student # 객체선언
+# s= Student() # 객체선언
 # s.hour= 1  # hour변수를 추가하는 방법
 # s.minute= 2  # 클래스 접근: 참조변수.변수명 생성
 # s.second= 3  # 호출방법: 참조변수.변수명 값수정

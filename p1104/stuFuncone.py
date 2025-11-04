@@ -51,7 +51,7 @@ def stu_print():
     print("-"*50)
     for stus in stu_list:
         print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}\t{}".format(*stus))
-    print()
+    print() 
     
     
 # 3. 학생성적 수정함수
