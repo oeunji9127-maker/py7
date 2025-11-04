@@ -13,7 +13,7 @@ class Student:
     
     # 합계
     def sum(self):
-        self.total= self.kor+self.eng+self.math
+        self.total= self.kor + self.eng + self.math
     
         
 s= Student(10101,"홍길동",100,100,100) # 클래스선언, 객체선언
@@ -22,4 +22,6 @@ print("합계: ",s.total) # 합계 300
 s.kor=90 # 국어점수 90으로 변경
 s.sum() # 함수호출후 수식처리
 print(s.total) # 합계 290= 90+100+100
+
+
 
